@@ -1,0 +1,22 @@
+Price   Location  Area_sqft  BHK  Age_of_Property
+0  5500000     Mumbai        750    2                5
+1  3200000      Delhi        600    2               10
+2  7200000  Bangalore        900    3                2
+3  4500000    Chennai        800    2                8
+4  3800000       Pune        650    2                7
+     Price  Area_sqft  BHK  Age_of_Property  Location_Chennai  Location_Delhi  \
+0  5500000        750    2                5             False           False   
+1  3200000        600    2               10             False            True   
+2  7200000        900    3                2             False           False   
+3  4500000        800    2                8              True           False   
+4  3800000        650    2                7             False           False   
+
+   Location_Mumbai  Location_Pune  
+0             True          False  
+1            False          False  
+2            False          False  
+3            False          False  
+4            False           True  
+Mean Squared Error: 297685327529.9072
+Root Mean Squared Error: 545605.46875
+R-squared: nan
